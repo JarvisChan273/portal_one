@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --color-paper: #f4f0e6;
+  --color-ink: #1c1915;
+  --color-muted: #5e584e;
+  --color-line: #e4d9c8;
+  --color-card: #fffdf8;
+  --color-teal: #0d6b62;
+  --color-teal-dark: #084841;
+  --color-clay: #a34b28;
+  --color-clay-soft: #f8ebe4;
+}
+
+body {
+  background:
+    radial-gradient(900px 420px at 0% -10%, #efe2cc 0%, transparent 60%),
+    var(--color-paper);
+  color: var(--color-ink);
+}
+
+.portal-link:target {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+}
