@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { authenticate, createSession, createUser, findUserBySessionToken } from "@/lib/accounts";
-import { importCatalog, searchCatalog } from "@/lib/catalog";
+import { importCatalog, listCatalogIndex, searchCatalog } from "@/lib/catalog";
 import { createDatabase } from "@/lib/db";
 import { hashSessionToken } from "@/lib/tokens";
 import {
@@ -103,6 +103,8 @@ test("catalog search treats percent as a literal", () => {
     ],
   });
   const user = createUser(db, "catalog@example.com", "correct horse");
+  const indexed = listCatalogIndex(db);
+  assert.equal(Object.getPrototypeOf(indexed[0]), Object.prototype);
   const found = searchCatalog(db, { query: "%" });
   assert.deepEqual(
     found.sites.map((site) => site.name),

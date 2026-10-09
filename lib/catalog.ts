@@ -191,9 +191,18 @@ export function categoryExists(db: AppDatabase, slug: string): boolean {
 }
 
 export function listCatalogIndex(db: AppDatabase): CatalogIndexItem[] {
-  return db
-    .prepare("SELECT id, name, host, url FROM catalog_sites ORDER BY name ASC")
-    .all() as CatalogIndexItem[];
+  const rows = db.prepare("SELECT id, name, host, url FROM catalog_sites ORDER BY name ASC").all() as Array<{
+    id: string;
+    name: string;
+    host: string;
+    url: string;
+  }>;
+  return rows.map((row) => ({
+    id: String(row.id),
+    name: String(row.name),
+    host: String(row.host),
+    url: String(row.url),
+  }));
 }
 
 export function catalogCount(db: AppDatabase): number {
