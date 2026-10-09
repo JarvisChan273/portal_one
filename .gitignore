@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.vercel
+.env
+.env.local
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,836 @@
+{
+  "categories": [
+    {
+      "slug": "search-ai",
+      "name": "Search and AI"
+    },
+    {
+      "slug": "mail-calendar",
+      "name": "Mail and calendar"
+    },
+    {
+      "slug": "social",
+      "name": "Social"
+    },
+    {
+      "slug": "video-music",
+      "name": "Video and music"
+    },
+    {
+      "slug": "news",
+      "name": "News"
+    },
+    {
+      "slug": "shopping",
+      "name": "Shopping"
+    },
+    {
+      "slug": "finance",
+      "name": "Finance"
+    },
+    {
+      "slug": "developer",
+      "name": "Developer"
+    },
+    {
+      "slug": "docs-cloud",
+      "name": "Docs and cloud"
+    },
+    {
+      "slug": "learning",
+      "name": "Learning"
+    },
+    {
+      "slug": "life-admin",
+      "name": "Life admin"
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong"
+    }
+  ],
+  "sites": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "description": "Web search.",
+      "category": "search-ai",
+      "featured": true
+    },
+    {
+      "name": "Bing",
+      "url": "https://www.bing.com",
+      "description": "Microsoft web search.",
+      "category": "search-ai"
+    },
+    {
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com",
+      "description": "Search with less tracking.",
+      "category": "search-ai"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "description": "OpenAI chat.",
+      "category": "search-ai",
+      "featured": true
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "description": "Anthropic chat.",
+      "category": "search-ai"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "description": "Google chat assistant.",
+      "category": "search-ai"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "description": "Search that answers with sources.",
+      "category": "search-ai"
+    },
+    {
+      "name": "Copilot",
+      "url": "https://copilot.microsoft.com",
+      "description": "Microsoft assistant.",
+      "category": "search-ai"
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org",
+      "description": "Free encyclopedia.",
+      "category": "search-ai",
+      "featured": true
+    },
+    {
+      "name": "WolframAlpha",
+      "url": "https://www.wolframalpha.com",
+      "description": "Computational answers.",
+      "category": "search-ai"
+    },
+    {
+      "name": "Gmail",
+      "url": "https://mail.google.com",
+      "description": "Google mail.",
+      "category": "mail-calendar",
+      "featured": true
+    },
+    {
+      "name": "Outlook",
+      "url": "https://outlook.live.com",
+      "description": "Microsoft mail.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Yahoo Mail",
+      "url": "https://mail.yahoo.com",
+      "description": "Yahoo mail.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Proton Mail",
+      "url": "https://mail.proton.me",
+      "description": "Encrypted mail.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "iCloud Mail",
+      "url": "https://www.icloud.com/mail",
+      "description": "Apple mail on the web.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Google Calendar",
+      "url": "https://calendar.google.com",
+      "description": "Google calendar.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Outlook Calendar",
+      "url": "https://outlook.live.com/calendar",
+      "description": "Microsoft calendar.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Fastmail",
+      "url": "https://www.fastmail.com",
+      "description": "Paid mail with your own domain.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Zoho Mail",
+      "url": "https://mail.zoho.com",
+      "description": "Zoho mail.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "Hey",
+      "url": "https://www.hey.com",
+      "description": "Hey email.",
+      "category": "mail-calendar"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com",
+      "description": "Short public posts.",
+      "category": "social"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com",
+      "description": "Friends, groups, and pages.",
+      "category": "social"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "description": "Photos and short video.",
+      "category": "social"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com",
+      "description": "Work profiles and posts.",
+      "category": "social"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "description": "Topic communities.",
+      "category": "social"
+    },
+    {
+      "name": "Threads",
+      "url": "https://www.threads.net",
+      "description": "Short posts from Instagram.",
+      "category": "social"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com",
+      "description": "Community chat.",
+      "category": "social"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://web.whatsapp.com",
+      "description": "WhatsApp in the browser.",
+      "category": "social"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://web.telegram.org",
+      "description": "Telegram in the browser.",
+      "category": "social"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com",
+      "description": "Short video.",
+      "category": "social"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com",
+      "description": "Visual bookmarks.",
+      "category": "social"
+    },
+    {
+      "name": "Bluesky",
+      "url": "https://bsky.app",
+      "description": "Bluesky social.",
+      "category": "social"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "description": "Video.",
+      "category": "video-music",
+      "featured": true
+    },
+    {
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "description": "Films and series.",
+      "category": "video-music"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com",
+      "description": "Music and podcasts.",
+      "category": "video-music"
+    },
+    {
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com",
+      "description": "Disney streaming.",
+      "category": "video-music"
+    },
+    {
+      "name": "Prime Video",
+      "url": "https://www.primevideo.com",
+      "description": "Amazon video.",
+      "category": "video-music"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv",
+      "description": "Live streams.",
+      "category": "video-music"
+    },
+    {
+      "name": "Vimeo",
+      "url": "https://vimeo.com",
+      "description": "Hosted video.",
+      "category": "video-music"
+    },
+    {
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com",
+      "description": "Independent audio.",
+      "category": "video-music"
+    },
+    {
+      "name": "Apple Music",
+      "url": "https://music.apple.com",
+      "description": "Apple music.",
+      "category": "video-music"
+    },
+    {
+      "name": "Bilibili",
+      "url": "https://www.bilibili.com",
+      "description": "Chinese video community.",
+      "category": "video-music"
+    },
+    {
+      "name": "BBC",
+      "url": "https://www.bbc.com",
+      "description": "BBC news.",
+      "category": "news"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com",
+      "description": "Reuters news.",
+      "category": "news"
+    },
+    {
+      "name": "Associated Press",
+      "url": "https://apnews.com",
+      "description": "AP news.",
+      "category": "news"
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "description": "The Guardian.",
+      "category": "news"
+    },
+    {
+      "name": "New York Times",
+      "url": "https://www.nytimes.com",
+      "description": "New York Times.",
+      "category": "news"
+    },
+    {
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com",
+      "description": "South China Morning Post.",
+      "category": "news"
+    },
+    {
+      "name": "CNN",
+      "url": "https://www.cnn.com",
+      "description": "CNN news.",
+      "category": "news"
+    },
+    {
+      "name": "The Economist",
+      "url": "https://www.economist.com",
+      "description": "The Economist.",
+      "category": "news"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "description": "Technology links.",
+      "category": "news"
+    },
+    {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "description": "Markets and business news.",
+      "category": "news"
+    },
+    {
+      "name": "Amazon",
+      "url": "https://www.amazon.com",
+      "description": "Amazon shopping.",
+      "category": "shopping"
+    },
+    {
+      "name": "eBay",
+      "url": "https://www.ebay.com",
+      "description": "Auctions and used goods.",
+      "category": "shopping"
+    },
+    {
+      "name": "Etsy",
+      "url": "https://www.etsy.com",
+      "description": "Independent shops.",
+      "category": "shopping"
+    },
+    {
+      "name": "AliExpress",
+      "url": "https://www.aliexpress.com",
+      "description": "Marketplace shipping worldwide.",
+      "category": "shopping"
+    },
+    {
+      "name": "IKEA",
+      "url": "https://www.ikea.com",
+      "description": "Furniture and home goods.",
+      "category": "shopping"
+    },
+    {
+      "name": "Apple",
+      "url": "https://www.apple.com",
+      "description": "Apple store.",
+      "category": "shopping"
+    },
+    {
+      "name": "Best Buy",
+      "url": "https://www.bestbuy.com",
+      "description": "Electronics retail.",
+      "category": "shopping"
+    },
+    {
+      "name": "Walmart",
+      "url": "https://www.walmart.com",
+      "description": "Walmart shopping.",
+      "category": "shopping"
+    },
+    {
+      "name": "Taobao",
+      "url": "https://www.taobao.com",
+      "description": "Taobao marketplace.",
+      "category": "shopping"
+    },
+    {
+      "name": "Shopee",
+      "url": "https://shopee.com",
+      "description": "Shopee shopping.",
+      "category": "shopping"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://www.paypal.com",
+      "description": "Send and receive money.",
+      "category": "finance"
+    },
+    {
+      "name": "Wise",
+      "url": "https://wise.com",
+      "description": "International transfers.",
+      "category": "finance"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://dashboard.stripe.com",
+      "description": "Stripe payments dashboard.",
+      "category": "finance"
+    },
+    {
+      "name": "Revolut",
+      "url": "https://www.revolut.com",
+      "description": "Revolut banking.",
+      "category": "finance"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com",
+      "description": "Quotes and market news.",
+      "category": "finance"
+    },
+    {
+      "name": "TradingView",
+      "url": "https://www.tradingview.com",
+      "description": "Charts.",
+      "category": "finance"
+    },
+    {
+      "name": "Coinbase",
+      "url": "https://www.coinbase.com",
+      "description": "Crypto exchange.",
+      "category": "finance"
+    },
+    {
+      "name": "HSBC Hong Kong",
+      "url": "https://www.hsbc.com.hk",
+      "description": "HSBC Hong Kong.",
+      "category": "finance"
+    },
+    {
+      "name": "Hang Seng Bank",
+      "url": "https://www.hangseng.com",
+      "description": "Hang Seng Bank.",
+      "category": "finance"
+    },
+    {
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance",
+      "description": "Google finance.",
+      "category": "finance"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "description": "Git repositories.",
+      "category": "developer",
+      "featured": true
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "description": "GitLab repositories.",
+      "category": "developer"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "description": "Programming questions.",
+      "category": "developer"
+    },
+    {
+      "name": "MDN",
+      "url": "https://developer.mozilla.org",
+      "description": "Web documentation.",
+      "category": "developer"
+    },
+    {
+      "name": "npm",
+      "url": "https://www.npmjs.com",
+      "description": "JavaScript packages.",
+      "category": "developer"
+    },
+    {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "description": "Frontend hosting.",
+      "category": "developer"
+    },
+    {
+      "name": "Docker Hub",
+      "url": "https://hub.docker.com",
+      "description": "Container images.",
+      "category": "developer"
+    },
+    {
+      "name": "DevDocs",
+      "url": "https://devdocs.io",
+      "description": "Offline-friendly API docs.",
+      "category": "developer"
+    },
+    {
+      "name": "Regex101",
+      "url": "https://regex101.com",
+      "description": "Regular expression tester.",
+      "category": "developer"
+    },
+    {
+      "name": "CodePen",
+      "url": "https://codepen.io",
+      "description": "Front-end experiments.",
+      "category": "developer"
+    },
+    {
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "description": "Google files.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Google Docs",
+      "url": "https://docs.google.com",
+      "description": "Google documents.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com",
+      "description": "Dropbox files.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "description": "Notes and docs.",
+      "category": "docs-cloud",
+      "featured": true
+    },
+    {
+      "name": "OneDrive",
+      "url": "https://onedrive.live.com",
+      "description": "Microsoft files.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "iCloud",
+      "url": "https://www.icloud.com",
+      "description": "Apple cloud.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com",
+      "description": "Interface design.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Slack",
+      "url": "https://slack.com",
+      "description": "Work chat.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Zoom",
+      "url": "https://zoom.us",
+      "description": "Video meetings.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Microsoft 365",
+      "url": "https://www.office.com",
+      "description": "Word, Excel, and PowerPoint online.",
+      "category": "docs-cloud"
+    },
+    {
+      "name": "Coursera",
+      "url": "https://www.coursera.org",
+      "description": "University courses.",
+      "category": "learning"
+    },
+    {
+      "name": "edX",
+      "url": "https://www.edx.org",
+      "description": "University courses.",
+      "category": "learning"
+    },
+    {
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org",
+      "description": "Free lessons.",
+      "category": "learning"
+    },
+    {
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com",
+      "description": "Language practice.",
+      "category": "learning"
+    },
+    {
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "description": "Practical courses.",
+      "category": "learning"
+    },
+    {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "Free coding curriculum.",
+      "category": "learning"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com",
+      "description": "Coding problems.",
+      "category": "learning"
+    },
+    {
+      "name": "Brilliant",
+      "url": "https://brilliant.org",
+      "description": "Math and science puzzles.",
+      "category": "learning"
+    },
+    {
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu",
+      "description": "MIT course materials.",
+      "category": "learning"
+    },
+    {
+      "name": "KodeKloud",
+      "url": "https://kodekloud.com",
+      "description": "Hands-on tech labs.",
+      "category": "learning"
+    },
+    {
+      "name": "Google Maps",
+      "url": "https://maps.google.com",
+      "description": "Maps and directions.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Google Translate",
+      "url": "https://translate.google.com",
+      "description": "Translation.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Speedtest",
+      "url": "https://www.speedtest.net",
+      "description": "Connection speed.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Weather.com",
+      "url": "https://weather.com",
+      "description": "Weather forecast.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Todoist",
+      "url": "https://todoist.com",
+      "description": "Task list.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Trello",
+      "url": "https://trello.com",
+      "description": "Boards of cards.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Bitwarden",
+      "url": "https://vault.bitwarden.com",
+      "description": "Password vault.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "description": "Simple graphic design.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Smallpdf",
+      "url": "https://smallpdf.com",
+      "description": "PDF tools.",
+      "category": "life-admin"
+    },
+    {
+      "name": "Time and Date",
+      "url": "https://www.timeanddate.com",
+      "description": "Time zones and calendars.",
+      "category": "life-admin"
+    },
+    {
+      "name": "MTR",
+      "url": "https://www.mtr.com.hk",
+      "description": "Hong Kong metro.",
+      "category": "hong-kong",
+      "featured": true
+    },
+    {
+      "name": "Hong Kong Observatory",
+      "url": "https://www.hko.gov.hk",
+      "description": "Weather and warnings.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "GovHK",
+      "url": "https://www.gov.hk",
+      "description": "Hong Kong government services.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Octopus",
+      "url": "https://www.octopus.com.hk",
+      "description": "Octopus card.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "OpenRice",
+      "url": "https://www.openrice.com",
+      "description": "Hong Kong restaurants.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Cathay Pacific",
+      "url": "https://www.cathaypacific.com",
+      "description": "Cathay flights.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "CLP Power",
+      "url": "https://www.clp.com.hk",
+      "description": "CLP electricity.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "HK01",
+      "url": "https://www.hk01.com",
+      "description": "HK01 news.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Ming Pao",
+      "url": "https://www.mingpao.com",
+      "description": "Ming Pao news.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "RTHK",
+      "url": "https://www.rthk.hk",
+      "description": "Public broadcasting.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "KMB",
+      "url": "https://www.kmb.hk",
+      "description": "Kowloon Motor Bus.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "HKEX",
+      "url": "https://www.hkex.com.hk",
+      "description": "Hong Kong exchange.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Inland Revenue",
+      "url": "https://www.ird.gov.hk",
+      "description": "Hong Kong tax.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Hospital Authority",
+      "url": "https://www.ha.org.hk",
+      "description": "Public hospitals.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "foodpanda",
+      "url": "https://www.foodpanda.hk",
+      "description": "Food delivery.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "Price.com.hk",
+      "url": "https://www.price.com.hk",
+      "description": "Local price comparison.",
+      "category": "hong-kong"
+    },
+    {
+      "name": "LIHKG",
+      "url": "https://lihkg.com",
+      "description": "Hong Kong forum.",
+      "category": "hong-kong"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Working copy with checklists: [Protalone — Product and Implementation Plan](https://app.notion.com/p/3f42ea02e00081b085e8f5b06aa1c6cf) (private Notion page).
 
+The running app uses email-and-password accounts and a SQLite file on one Node process. The reason, and how each account stays separate, is in [ARCHITECTURE.zh-Hant.md](ARCHITECTURE.zh-Hant.md). Postgres row-level security remains the upgrade when more than one server is required. The sections below are the original product spec.
+
 This file is the repo snapshot from 2026-10-09. The GitHub repo stays `portal_one`. The visible product name in this plan is **Protalone**, and can still change to Portal One before the interface copy is widespread.
 
 ## Product
